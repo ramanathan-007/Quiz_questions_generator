@@ -204,4 +204,4 @@ def result():
         return render_template("error.html", error_message=f"An error occurred: {str(e)}")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
