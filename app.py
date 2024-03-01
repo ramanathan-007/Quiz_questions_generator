@@ -9,7 +9,6 @@ from langchain.chat_models import ChatOpenAI
 import requests
 from io import BytesIO
 import PyPDF2
-import fitz
 import tempfile
 
 
