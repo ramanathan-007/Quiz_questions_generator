@@ -1,0 +1,650 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 617-104-277
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 14:18:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 14:18:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 14:20:04] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 14:20:22] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Feb/2024 14:20:22] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:00:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:00:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:41] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:49] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:49] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:49] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:49] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:49] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:02:50] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:04:55] "GET / HTTP/1.1" 200 -
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+ERROR:root:An error occurred: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:26] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:27] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:27] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:27] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:27] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:05:30] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:12] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:47] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:47] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:47] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:47] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:06:47] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:08:04] "POST /quiz HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:08:16] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:09:50] "GET / HTTP/1.1" 200 -
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:10:35] "POST /quiz HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 22:10:44] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:05:58] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:10:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:11:27] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:11:54] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:11:54] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:51] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:51] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:51] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:52] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:52] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:33:52] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:39:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:40:12] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:40:13] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:40:13] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:40:13] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:40:13] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:49] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:50] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:50] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:50] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:41:50] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:04] "GET / HTTP/1.1" 200 -
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+ERROR:root:An error occurred: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:31] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:34] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:34] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:34] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:34] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 23:47:35] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:45] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:46] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:46] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:46] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:01:46] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:04:20] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:04:21] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:04:21] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:04:21] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:04:21] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:05:19] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:05:19] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:05:19] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:05:20] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:05:20] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:20:47] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:20:47] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:20:47] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:20:47] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:20:47] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:25:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:00] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:22] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:22] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:55] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:56] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:56] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:56] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:56] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:26:56] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:28:20] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:35:42] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: 1 validation error for SequentialChain
+__root__
+  Missing required input keys: {'ton'}, only had {'text', 'tone', 'response_json', 'subject', 'number'} (type=value_error)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:36:02] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:37:06] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: 1 validation error for SequentialChain
+__root__
+  Missing required input keys: {'ton'}, only had {'tone', 'number', 'text', 'subject', 'response_json'} (type=value_error)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:37:23] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: 1 validation error for SequentialChain
+__root__
+  Missing required input keys: {'ton'}, only had {'subject', 'text', 'number', 'response_json', 'tone'} (type=value_error)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:38:02] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:39:25] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:41:26] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:42:07] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:43:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:44:11] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:45:55] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 00:45:55] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:14:14] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: HTTPSConnectionPool(host='www.cs.bham.ac.uk', port=443): Max retries exceeded with url: /~jxb/DSA/dsa.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:14:59] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:14:59] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:14:59] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:15:00] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:15:00] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:15:00] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ERROR:root:An error occurred: HTTPSConnectionPool(host='www.cs.bham.ac.uk', port=443): Max retries exceeded with url: /~jxb/DSA/dsa.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:17:04] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:17:04] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: HTTPSConnectionPool(host='www.cs.bham.ac.uk', port=443): Max retries exceeded with url: /~jxb/DSA/dsa.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:29:09] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:29:09] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:openai:error_code=rate_limit_exceeded error_message='Request too large for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on tokens per min (TPM): Limit 40000, Requested 1382824. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Request too large for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on tokens per min (TPM): Limit 40000, Requested 1382824. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Request too large for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on tokens per min (TPM): Limit 40000, Requested 1382824. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=tokens message='OpenAI API error received' stream_error=False
+ERROR:root:An error occurred: Request too large for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on tokens per min (TPM): Limit 40000, Requested 1382824. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:31:13] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:31:13] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:38:57] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:39:15] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:39:16] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:39:28] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:39:29] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:25] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:25] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:57] "[35m[1mPOST /quiz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:57] "GET /quiz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:58] "GET /quiz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:58] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:58] "GET /quiz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:40:58] "GET /quiz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:41:46] "[33mPOST /quiz HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:42:07] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:42:08] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:42:18] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:42:18] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:43:20] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:43:20] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:00] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:00] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:09] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:10] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: expected str, bytes or os.PathLike object, not FileStorage
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:35] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:45:35] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: expected str, bytes or os.PathLike object, not FileStorage
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:46:42] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:46:42] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/data.txt'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:47:16] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:47:16] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/data.txt'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:47:34] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:47:34] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/data.txt'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:54:30] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 02:54:30] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:31:05] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/data.txt'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:31:34] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:31:34] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:32:30] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/data.txt'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:32:46] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:32:46] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:34:04] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:35:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:39:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:39:35] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:39:35] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: module 'fitz' has no attribute 'open'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:39:57] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:39:57] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:40:31] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 11:41:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: expected str, bytes or os.PathLike object, not FileStorage
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:36:06] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:36:06] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:37:55] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: expected str, bytes or os.PathLike object, not FileStorage
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:38:15] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:38:15] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: expected str, bytes or os.PathLike object, not FileStorage
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:52:28] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:52:28] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:57:04] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: __enter__
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:57:29] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:57:29] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:58:47] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:59:05] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:59:05] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:00:46] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:00:46] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:29:08] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:29:09] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:45:27] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:45:28] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:50:12] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:52:27] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:52:27] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+ERROR:root:An error occurred: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:53:23] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:53:23] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:54:38] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:58:35] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 13:58:35] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 10990: character maps to <undefined>
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:01:55] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:01:55] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 10990: character maps to <undefined>
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:03:32] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:03:33] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\raman\\Downloads\\2.MCQ_generator\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 236-697-507
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain_core.language_models.llms:Retrying langchain_community.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+ERROR:root:An error occurred: Rate limit reached for gpt-3.5-turbo in organization org-ePyrIiWWqssQHjDCcK5cTLe9 on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:08:37] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:08:39] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:14:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:40] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:18:07] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:18:07] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:18:49] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:18:49] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:19:47] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:19:59] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:21:24] "POST /quiz HTTP/1.1" 200 -
+ERROR:root:An error occurred: Expecting property name enclosed in double quotes: line 39 column 9 (char 1130)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:23:17] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:23:17] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:24:25] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:50:33] "GET /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:50:38] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: EOF marker not found
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:51:56] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:51:56] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:52:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:53:25] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:54:02] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:54:02] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:00:49] "GET / HTTP/1.1" 200 -
+ERROR:root:An error occurred: local variable 'pdf_content' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:05:14] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:05:14] "[33mGET /style/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:06:39] "POST /quiz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:08:55] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 16:08:56] "[33mGET /style/style.css HTTP/1.1[0m" 404 -

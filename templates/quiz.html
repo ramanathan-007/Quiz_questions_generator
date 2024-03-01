@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <!-- Bootstrap CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: #d3f9d8; /* Light green background color */
+        padding: 20px; /* Add some padding for better appearance */
+      }
+
+      h1,
+      h3,
+      p {
+        color: #007bff; /* Bootstrap primary color for headings and paragraphs */
+      }
+
+      form {
+        margin-bottom: 20px; /* Add space between each form for better readability */
+      }
+
+      label {
+        display: block; /* Display labels as blocks for better alignment */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-4">Quiz Questions</h1>
+
+      {% for question_number, question_data in quiz_data.items() %}
+      <h3>Question {{ question_number }}:</h3>
+      <p>{{ question_data['mcq'] }}</p>
+
+      <form action="{{ url_for('result') }}" method="POST">
+        {% for option_key, option_value in question_data['options'].items() %}
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="question{{ question_number }}"
+            value="{{ option_key }}"
+            id="option{{ question_number }}{{ option_key }}"
+          />
+          <label
+            class="form-check-label"
+            for="option{{ question_number }}{{ option_key }}"
+          >
+            {{ option_value }}
+          </label>
+        </div>
+        {% endfor %}
+        <br />
+        <!-- Add a line break for better separation -->
+        {% endfor %}
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js scripts (optional) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+The Wurtz reaction is a very useful reaction in the fields of organic chemistry and organometallic chemistry for the formation of alkanes. In this reaction, two different alkyl halides are coupled to yield a longer alkane chain with the help of sodium and dry ether solution.
+
+This reaction is named after the French chemist Charles Adolphe Wurtz, who also discovered the aldol reaction. Apart from sodium, metals like silver, indium, activated copper, zinc, and iron can also be used in the Wurtz reaction in order to obtain alkanes.
+
+The mechanism of this reaction involves free radicals, allowing for the possibility of side reactions that lead to the formation of alkenes as the product. A reaction related to the Wurtz Reaction in which aryl halides are used instead of alkyl halides is often called the Wurtz-Fittig reaction and is a very important named reaction in organic chemistry.
+
+Wurtz Reaction Equation
+The general form of the Wurtz reaction equation can be written as follows:
+
+2R-X + 2Na → R-R + 2Na+ X–
+
+It can be observed from this equation that the two R groups are joined, yielding an alkane with a longer chain along with NaX, where X is a Halogen.
+
+Wurtz Reaction Mechanism
+The mechanism of the Wurtz reaction involves a free radical species denoted by R• which is a part of a halogen-metal exchange. This mechanism is somewhat similar to the formation of Grignard reagents. The carbon-carbon bond is formed in a nucleophilic substitution reaction in this reaction mechanism, which can be broken down into the following 3 steps:
+
+Step 1: The transfer of an electron from the metal (sodium in this case) to the halogen leads to the formation of an alkyl radical along with the metal halide. This reaction can be written as follows.
+
+R-X + Na → R• + Na+X–
+
+Step 2: A different sodium atom now donates a single electron to the alkyl radical, leading to the formation of an alkyl anion as shown below.
+
+R• + Na → R–Na+
+
+Step 3: The carbon belonging to the alkyl anion having a nucleophilic nature proceeds to displace the halogen in the alkyl halide via an SN2 reaction and form a covalent bond with the carbon which was bonded with the halogen. The reaction detailing this step is given below.
+
+R–Na+ + R-X → R-R + Na+X–
+
+As discussed earlier, the free radical mechanism for the Wurtz reaction involves the possibility of an alkene being produced as a side product. This side reaction is explained via the reaction provided below.
+
+Wurtz Reaction Mechanism
+
+Thus, the required alkane product is formed in the Wurtz reaction mechanism. It can be noted that the reaction has relatively low yields due to the formation of multiple products.
+
+Limitations of the Wurtz Reaction
+A few limitations of this reaction are listed below.
+
+Commonly, only symmetric alkanes can be synthesized via this method since a mixture of alkane products are formed when dissimilar alkanes are reacted (these mixtures are difficult to separate).
+There exists a side reaction via which an alkene product is formed. If the alkyl halides be bulky in nature, especially at the halogen end, there is a greater amount of alkene formed.
+Methane cannot be synthesized via the Wurtz reaction since the product of an organic coupling reaction must have at least two carbon atoms.
+The Wurtz coupling method generally fails when tertiary alkyl halides are used.

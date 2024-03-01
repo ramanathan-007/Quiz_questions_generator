@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Choose a suitable font family */
+        background-color: #f3f7f9; /* Light blue background color */
+        padding: 20px;
+        text-align: center;
+        color: #2c3e50; /* Dark text color for better readability */
+      }
+
+      h1 {
+        color: #3498db; /* Blue color for headings */
+        margin-bottom: 30px; /* Add some space below the heading */
+      }
+
+      form {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #34495e; /* Slightly darker gray color for labels */
+        font-weight: bold;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px; /* Increase the margin bottom for better separation */
+        box-sizing: border-box;
+        border: 1px solid #95a5a6; /* Lighter border color */
+        border-radius: 6px;
+        transition: border-color 0.3s; /* Add a subtle transition effect */
+      }
+
+      input:focus {
+        border-color: #3498db; /* Highlight border color on focus */
+      }
+
+      button {
+        background-color: #3498db;
+        color: #ffffff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s; /* Add a subtle transition effect */
+      }
+
+      button:hover {
+        background-color: #2980b9; /* Darker blue color on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Curiosify MCQ Generator</h1>
+    <form method="POST" action="/quiz" enctype="multipart/form-data">
+      <!-- Input for API Key -->
+      <label for="apiKey">API Key:</label>
+      <input type="text" id="apiKey" name="apiKey" required />
+
+      <!-- Input for Subject -->
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required />
+
+      <!-- Input for Ton -->
+      <label for="ton">Level:</label>
+      <input type="text" id="ton" name="ton" required />
+
+      <!-- Input for Number of Questions -->
+      <label for="numQuestions">Number of Questions:</label>
+      <input type="number" id="numQuestions" name="numQuestions" required />
+
+      <!-- Input for Text File Upload -->
+      <label for="fileUpload">Upload File:</label>
+      <input type="file" id="fileUpload" name="fileUpload" />
+
+      <!-- Input for Document Link -->
+      <label for="documentLink">Document Link:</label>
+      <input
+        type="text"
+        id="documentLink"
+        name="documentLink"
+        placeholder="Enter document link"
+      />
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
